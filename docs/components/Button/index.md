@@ -1,8 +1,8 @@
-import { Button } from './index';
-
 # Button 按钮
 
 触发操作或跳转的按钮组件。
+
+import { Button } from './index';
 
 ## 代码演示
 
@@ -24,7 +24,9 @@ export default () => (
     <Button variant="secondary">Secondary</Button>
     <Button variant="outline">Outline</Button>
   </>
-);### 不同尺寸
+);
+
+### 不同尺寸
 
 提供大、中、小三种尺寸。
 
@@ -42,7 +44,9 @@ export default () => (
     <Button size="md">Medium</Button>
     <Button size="lg">Large</Button>
   </>
-);## API
+);
+
+## API
 
 | 属性 | 说明 | 类型 | 默认值 |
 | :--- | :--- | :--- | :--- |

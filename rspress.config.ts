@@ -10,6 +10,24 @@ export default defineConfig({
     dark: '/rspress-dark-logo.png',
   },
   themeConfig: {
+    sidebar: {
+      '/components/': [
+        {
+          text: '概览',
+          link: '/components/',
+        },
+        {
+          text: '通用',
+          collapsible: false,
+          items: [
+            {
+              text: 'Button 按钮',
+              link: '/components/Button/',
+            },
+          ],
+        },
+      ],
+    },
     socialLinks: [
       {
         icon: 'github',
