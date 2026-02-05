@@ -9,6 +9,10 @@ export default defineConfig({
     light: '/rspress-light-logo.png',
     dark: '/rspress-dark-logo.png',
   },
+  // 添加全局样式
+  head: [
+    '<link rel="stylesheet" href="/styles/global.css">',
+  ],
   themeConfig: {
     sidebar: {
       '/components/': [
